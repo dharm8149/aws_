@@ -59,3 +59,10 @@ Selecting a Region
 Availabilty Zones
 In single region we have a multiple data centers denoted by 1a,1b,2c etc
 
+Edge Location
+Instead of requiring your customers to get their data from Brazil, you can cache a copy locally at an edge location that is close to your customers in China.
+
+Ways to Interact with AWS Services
+AWS Management Console
+AWS Command Line Interface
+Software development kits (SDKs)
