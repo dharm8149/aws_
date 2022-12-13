@@ -50,5 +50,12 @@ Amazon Simple Queue Service (Amazon SQS)
 Amazon Elastic Container Service (Amazon ECS)
 Amazon Elastic Container Service (Amazon ECS) is a highly scalable, high-performance container management system that enables you to run and scale containerized applications on AWS. 
 
+Selecting a Region
+1.Compliance with data governance and legal requirements
+2.Proximity to your customers
+3.Available services within a Region
+4.Pricing
 
+Availabilty Zones
+In single region we have a multiple data centers denoted by 1a,1b,2c etc
 
