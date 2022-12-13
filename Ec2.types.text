@@ -66,3 +66,43 @@ Ways to Interact with AWS Services
 AWS Management Console
 AWS Command Line Interface
 Software development kits (SDKs)
+
+
+
+AWS Elastic Beanstalk
+With AWS Elastic Beanstalk, you provide code and configuration settings, and Elastic Beanstalk deploys the resources necessary to perform the following tasks:
+
+Adjust capacity
+
+Load balancing
+
+Automatic scaling
+
+Application health monitoring
+
+AWS CloudFormation
+With AWS CloudFormation, you can treat your infrastructure as code. This means that you can build an environment by writing lines of code instead of using the AWS Management Console to individually provision resources.
+
+AWS CloudFormation provisions your resources in a safe, repeatable manner, enabling you to frequently build your infrastructure and applications without having to perform manual actions or write custom scripts. It determines the right operations to perform when managing your stack and rolls back changes automatically if it detects errors.
+
+
+Amazon Virtual Private Cloud (Amazon VPC)
+Internet gateway
+To allow public traffic from the internet to access your VPC, you attach an internet gateway to the VPC.
+
+Virtual private gateway
+Here’s an example of how a virtual private gateway works. You can think of the internet as the road between your home and the coffee shop. Suppose that you are traveling on this road with a bodyguard to protect you. You are still using the same road as other customers, but with an extra layer of protection. 
+
+AWS Direct Connect is a service that enables you to establish a dedicated private connection between your data center and a VPC.  
+
+
+Subnets and Network Access Control Lists
+Subnets
+A subnet is a section of a VPC in which you can group resources based on security or operational needs. Subnets can be public or private. 
+
+Network Access Control Lists (ACLs)
+A network access control list (ACL) is a virtual firewall that controls inbound and outbound traffic at the subnet level.
+
+Security Groups
+A security group is a virtual firewall that controls inbound and outbound traffic for an Amazon EC2 instance.
+
